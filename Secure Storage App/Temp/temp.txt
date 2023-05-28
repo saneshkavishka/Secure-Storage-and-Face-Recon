@@ -1,0 +1,116 @@
+using System;
+using System.IO;
+using System.Security.Cryptography;
+using System.Data.SqlClient;
+
+namespace FileEncryptionApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please select a file to encrypt:");
+            string filePath = Console.ReadLine();
+
+            if (IsMalicious(filePath))
+            {
+                Console.WriteLine("File is malicious and cannot be encrypted.");
+                return;
+            }
+
+            Console.WriteLine("Enter a password to use for encryption:");
+            string password = Console.ReadLine();
+
+            byte[] encryptedData = EncryptFile(filePath, password);
+
+            StoreEncryptedDataInDatabase(encryptedData);
+
+            Console.WriteLine("File has been encrypted and stored in the database.");
+            Console.WriteLine("Enter the ID of the encrypted file to decrypt:");
+            int fileId = int.Parse(Console.ReadLine());
+
+            byte[] decryptedData = DecryptFile(fileId, password);
+
+            if (decryptedData != null)
+            {
+                Console.WriteLine("File has been decrypted.");
+                string decryptedFilePath = Path.GetFileNameWithoutExtension(filePath) + "_decrypted" + Path.GetExtension(filePath);
+                File.WriteAllBytes(decryptedFilePath, decryptedData);
+                Console.WriteLine("Decrypted file has been saved to " + decryptedFilePath);
+            }
+            else
+            {
+                Console.WriteLine("Unable to decrypt file. Invalid ID or password.");
+            }
+
+            Console.ReadLine();
+        }
+
+        static bool IsMalicious(string filePath)
+        {
+            // TODO: Implement malicious file check logic here
+            return false;
+        }
+
+        static byte[] EncryptFile(string filePath, string password)
+        {
+            byte[] dataToEncrypt = File.ReadAllBytes(filePath);
+
+            byte[] salt = GenerateRandomSalt();
+
+            using (Aes aesAlg = Aes.Create())
+            {
+                aesAlg.KeySize = 256;
+                aesAlg.BlockSize = 128;
+
+                Rfc2898DeriveBytes key = new Rfc2898DeriveBytes(password, salt);
+                aesAlg.Key = key.GetBytes(aesAlg.KeySize / 8);
+                aesAlg.IV = GenerateRandomIV();
+
+                using (MemoryStream msEncrypt = new MemoryStream())
+                {
+                    msEncrypt.Write(salt, 0, salt.Length);
+
+                    using (CryptoStream csEncrypt = new CryptoStream(msEncrypt, aesAlg.CreateEncryptor(), CryptoStreamMode.Write))
+                    {
+                        csEncrypt.Write(dataToEncrypt, 0, dataToEncrypt.Length);
+                        csEncrypt.FlushFinalBlock();
+                    }
+
+                    return msEncrypt.ToArray();
+                }
+            }
+        }
+
+        static void StoreEncryptedDataInDatabase(byte[] encryptedData)
+        {
+            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+            builder.DataSource = "your_server_name";
+            builder.UserID = "your_user_id";
+            builder.Password = "your_password";
+            builder.InitialCatalog = "your_database_name";
+
+            using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
+            {
+                connection.Open();
+
+                string sql = "INSERT INTO EncryptedFiles (EncryptedData) VALUES (@EncryptedData); SELECT SCOPE_IDENTITY();";
+                using (SqlCommand command = new SqlCommand(sql, connection))
+                {
+                    command.Parameters.AddWithValue("@EncryptedData", encryptedData);
+                    int fileId = Convert.ToInt32(command.ExecuteScalar());
+
+                    Console.WriteLine("File ID " + fileId + " has been assigned to the encrypted file.");
+                }
+            }
+        }
+
+        static byte[] DecryptFile(int fileId, string password)
+        {
+            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+            builder.DataSource = "your_server_name";
+            builder.UserID = "your_user_id";
+            builder.Password = "your_password";
+            builder.InitialCatalog = "your_database_name";
+
+            using (SqlConnection connection =

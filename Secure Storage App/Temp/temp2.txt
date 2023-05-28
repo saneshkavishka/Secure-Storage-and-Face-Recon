@@ -1,0 +1,102 @@
+using System;
+using System.IO;
+using System.Security.Cryptography;
+using System.Data.SqlClient;
+using Microsoft.Win32;
+
+namespace FileEncryptionDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please select a file to encrypt:");
+            string filePath = Console.ReadLine();
+
+            if (!File.Exists(filePath))
+            {
+                Console.WriteLine("Invalid file path.");
+                return;
+            }
+
+            if (IsFileMalicious(filePath))
+            {
+                Console.WriteLine("The selected file is malicious and cannot be encrypted.");
+                return;
+            }
+
+            Console.WriteLine("Please enter a password to use for encryption:");
+            string password = Console.ReadLine();
+
+            try
+            {
+                byte[] encryptedData = EncryptFile(filePath, password);
+
+                StoreEncryptedFileInDatabase(filePath, encryptedData);
+
+                Console.WriteLine("File has been encrypted and stored in the database.");
+
+                Console.WriteLine("Do you want to retrieve the encrypted file from the database? (y/n)");
+                string input = Console.ReadLine();
+                if (input.ToLower() == "y")
+                {
+                    Console.WriteLine("Please enter the ID of the encrypted file:");
+                    int id = int.Parse(Console.ReadLine());
+                    byte[] retrievedData = RetrieveEncryptedFileFromDatabase(id);
+                    byte[] decryptedData = DecryptFile(retrievedData, password);
+                    string decryptedFilePath = Path.GetFileNameWithoutExtension(filePath) + "_decrypted" + Path.GetExtension(filePath);
+                    File.WriteAllBytes(decryptedFilePath, decryptedData);
+                    Console.WriteLine("File has been decrypted and saved to: " + decryptedFilePath);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("An error occurred: " + ex.Message);
+            }
+        }
+
+        static bool IsFileMalicious(string filePath)
+        {
+            string defenderExe = @"C:\Program Files\Windows Defender\MpCmdRun.exe";
+            string arguments = string.Format("-Scan -ScanType 3 -File \"{0}\"", filePath);
+
+            System.Diagnostics.ProcessStartInfo processInfo = new System.Diagnostics.ProcessStartInfo(defenderExe, arguments);
+            processInfo.CreateNoWindow = true;
+            processInfo.UseShellExecute = false;
+
+            System.Diagnostics.Process process = System.Diagnostics.Process.Start(processInfo);
+            process.WaitForExit();
+
+            return process.ExitCode != 0;
+        }
+
+        static byte[] EncryptFile(string filePath, string password)
+        {
+            byte[] salt = new byte[32];
+            using (RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider())
+            {
+                rng.GetBytes(salt);
+            }
+
+            using (RijndaelManaged aes = new RijndaelManaged())
+            {
+                aes.KeySize = 256;
+                aes.BlockSize = 128;
+                aes.Padding = PaddingMode.PKCS7;
+
+                var key = new Rfc2898DeriveBytes(password, salt, 1000);
+                aes.Key = key.GetBytes(aes.KeySize / 8);
+
+                aes.IV = new byte[aes.BlockSize / 8];
+                using (FileStream fsIn = new FileStream(filePath, FileMode.Open))
+                {
+                    using (MemoryStream msOut = new MemoryStream())
+                    {
+                        msOut.Write(salt, 0, salt.Length);
+                        msOut.Write(BitConverter.GetBytes(fsIn.Length), 0, sizeof(long));
+
+                        using (CryptoStream cs = new CryptoStream(msOut, aes.CreateEncryptor(), CryptoStreamMode.Write))
+                        {
+                            byte[] buffer = new byte[8192];
+                            int bytesRead;
+                            while ((bytesRead = fsIn.Read(buffer, 0
