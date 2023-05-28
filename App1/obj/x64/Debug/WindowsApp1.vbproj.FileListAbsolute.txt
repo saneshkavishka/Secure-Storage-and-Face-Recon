@@ -1,0 +1,14 @@
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\bin\x64\Debug\WindowsApp1.exe.config
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\bin\x64\Debug\WindowsApp1.exe
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\bin\x64\Debug\WindowsApp1.pdb
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\bin\x64\Debug\WindowsApp1.xml
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\obj\x64\Debug\WindowsApp1.vbproj.AssemblyReference.cache
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\obj\x64\Debug\WindowsApp1.vbproj.SuggestedBindingRedirects.cache
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\obj\x64\Debug\WindowsApp1.Form1.resources
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\obj\x64\Debug\WindowsApp1.Resources.resources
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\obj\x64\Debug\WindowsApp1.vbproj.GenerateResource.cache
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\obj\x64\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\obj\x64\Debug\WindowsApp1.exe
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\obj\x64\Debug\WindowsApp1.xml
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\obj\x64\Debug\WindowsApp1.pdb
+C:\Users\dusha\OneDrive\Desktop\Project\WindowsApp1\obj\x64\Debug\WindowsApp1.Form2.resources
