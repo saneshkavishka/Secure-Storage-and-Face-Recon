@@ -1,0 +1,98 @@
+C:\Users\XtechHPME\AppData\Local\Temporary Projects\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.exe
+C:\Users\XtechHPME\AppData\Local\Temporary Projects\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.pdb
+C:\Users\XtechHPME\AppData\Local\Temporary Projects\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.xml
+C:\Users\XtechHPME\AppData\Local\Temporary Projects\FaceLuxandvokacom\bin\Debug\FaceSDK.NET.dll
+C:\Users\XtechHPME\AppData\Local\Temporary Projects\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbprojResolveAssemblyReference.cache
+C:\Users\XtechHPME\AppData\Local\Temporary Projects\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Form1.resources
+C:\Users\XtechHPME\AppData\Local\Temporary Projects\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Resources.resources
+C:\Users\XtechHPME\AppData\Local\Temporary Projects\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.GenerateResource.Cache
+C:\Users\XtechHPME\AppData\Local\Temporary Projects\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.exe
+C:\Users\XtechHPME\AppData\Local\Temporary Projects\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.xml
+C:\Users\XtechHPME\AppData\Local\Temporary Projects\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.pdb
+C:\Users\XtechHPME\documents\visual studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.exe
+C:\Users\XtechHPME\documents\visual studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.xml
+C:\Users\XtechHPME\documents\visual studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.pdb
+C:\Users\XtechHPME\documents\visual studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.exe
+C:\Users\XtechHPME\documents\visual studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.pdb
+C:\Users\XtechHPME\documents\visual studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.xml
+C:\Users\XtechHPME\documents\visual studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceSDK.NET.dll
+C:\Users\XtechHPME\documents\visual studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Form1.resources
+C:\Users\XtechHPME\documents\visual studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Resources.resources
+C:\Users\XtechHPME\documents\visual studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.GenerateResource.Cache
+C:\Users\XtechHPME\documents\visual studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.exe.config
+C:\Users\XtechHPME\Documents\Visual Studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Form2.resources
+C:\Users\XtechHPME\Documents\Visual Studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.temp.resources
+C:\Users\XtechHPME\Documents\Visual Studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Splash.resources
+C:\Users\XtechHPME\Documents\Visual Studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbprojResolveAssemblyReference.cache
+C:\Users\XtechHPME\Documents\Visual Studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\System.Data.SQLite.dll
+C:\Users\XtechHPME\Documents\Visual Studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\System.Data.SQLite.pdb
+C:\Users\XtechHPME\Documents\Visual Studio 2010\Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\System.Data.SQLite.xml
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.exe.config
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.exe
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.xml
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.pdb
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbprojResolveAssemblyReference.cache
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Form1.resources
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Form2.resources
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Resources.resources
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Splash.resources
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.temp.resources
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.GenerateResource.Cache
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.exe
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.pdb
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.xml
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceSDK.NET.dll
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\System.Data.SQLite.pdb
+C:\Users\XTech Softworks\Documents\My VB Projects\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\System.Data.SQLite.xml
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.exe.config
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.exe
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.xml
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.pdb
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.exe
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.pdb
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.xml
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\System.Data.SQLite.pdb
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\bin\Debug\System.Data.SQLite.xml
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Form1.resources
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Form2.resources
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Resources.resources
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Splash.resources
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.temp.resources
+C:\Users\USER\Documents\SYSTEMS\FACE PROJECT\FaceLuxandvokacom\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.GenerateResource.Cache
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.exe.config
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.exe
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.pdb
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.xml
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\System.Data.SQLite.pdb
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\System.Data.SQLite.xml
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.AssemblyReference.cache
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Form1.resources
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Form2.resources
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Resources.resources
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Splash.resources
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.temp.resources
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.GenerateResource.cache
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.CopyComplete
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.exe
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.xml
+C:\Users\Lenovo\Downloads\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.pdb
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.exe.config
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.exe
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.pdb
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\FaceLuxandvokacom.xml
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\System.Data.SQLite.pdb
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\bin\Debug\System.Data.SQLite.xml
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Form1.resources
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Form2.resources
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Resources.resources
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.Splash.resources
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.temp.resources
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.GenerateResource.cache
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.vbproj.CopyComplete
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.exe
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.xml
+C:\Users\Lenovo\OneDrive - Sri Lanka Institute of Information Technology\Desktop\FaceRec_Luxand_SDK_6.1.0.0\FaceLuxandvokacom\obj\x86\Debug\FaceLuxandvokacom.pdb
